@@ -1,0 +1,32 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    order: 2;
+}
+
+.sidebar-right {
+    width: 20%;
+    order: 3;
+}
+
+.sidebar-left {
+    width: 30%;
+    order: 1;
+}
+
+.header,
+.footer,
+.main,
+.sidebar-left,
+.sidebar-right {
+  padding: 20px;
+}
